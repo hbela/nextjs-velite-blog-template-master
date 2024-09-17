@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import "@/styles/mdx.css";
 import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
+import CommentsClient from "@/components/CommentsClient";
 interface PostPageProps {
   params: {
     slug: string[];
@@ -78,6 +79,7 @@ export default async function PostPage({ params }: PostPageProps) {
       ) : null}
       <hr className="my-4" />
       <MDXContent code={post.body} />
+      <CommentsClient />
     </article>
   );
 }
