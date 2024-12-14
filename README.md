@@ -1,5 +1,6 @@
 ## NextJS 14, Tailwind, Shadcn UI, MDX and Velite Blog Template
 ## My blog is based on this template BH
+## Comments are powered by Giscus BH
 
 <p align="center">
  <img src="https://i.imgur.com/VgnktQH.png" width="400">
